@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+jwt:
+  secret: sample.secret # openssl rand -base64 64
+  expiration: 86400 # (秒)
+
+oauth:
+  clientId:
+  clientSecret:
+  redirectUrl:
+  oauthDomain:
+  signUpDomain:
+  signUpRedirectUrl:
+  scope:
